@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Zhuang - Contact</title>
+    <link rel="stylesheet" href="scripts/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div class="container">
+            <h1>Joshua Zhuang</h1>
+            <p>Web Developer & UX Enthusiast</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" class="container">
+        <h2>Get in Touch</h2>
+        <div class="contact-grid">
+            <section class="contact-form">
+                <h3>Send a Message</h3>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+
+            <section class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out to me through any of the following channels:</p>
+                <ul>
+                    <li>Email: joshua.zhuang@example.com</li>
+                    <li>Phone: (561) 631-7583</li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/zhuangjoshua/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Joshua Zhuang. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="accessibility-controls">
+        <button id="contrast-toggle">Toggle High Contrast</button>
+        <div class="font-size-controls">
+            <button id="decrease-font">A-</button>
+            <button id="increase-font">A+</button>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
